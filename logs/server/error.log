@@ -1,0 +1,109 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:54:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Feb 09 2022 17:01:22 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1036849},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18965375,"external":23237501,"heapTotal":37339136,"heapUsed":26920416,"rss":66314240},"pid":21100,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\ALANKRITHA\\Books\\book-store\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:54:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-09T11:31:22.707Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":54,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T11:42:49.460Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\src\services\/user.service.js:6:29)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registration (C:\Users\ALANKRITHA\Books\book-store\src\services\/user.service.js:6:26)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\src\controllers\/user.controller.js:11:36)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T11:45:48.553Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:42:12.622Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\src\services\/user.service.js:25:21)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:44:42.719Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is not allowed 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:45:26.755Z"}
+error: 
+    status - 500 
+    message - ValidationError: "_id" is not allowed 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:46:01.879Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\src\services\/user.service.js:25:21)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:46:17.109Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\src\services\/user.service.js:25:21)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-09T13:55:34.767Z"}
