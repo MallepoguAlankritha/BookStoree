@@ -15,6 +15,8 @@ var _user = _interopRequireDefault(require("../models/user.model"));
 
 var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
 
+var _bcrypt = _interopRequireDefault(require("bcrypt"));
+
 var _dotenv = _interopRequireDefault(require("dotenv"));
 
 _dotenv["default"].config(); //register user
@@ -28,12 +30,12 @@ var registration = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return bcrypt.genSalt(12);
+            return _bcrypt["default"].genSalt(12);
 
           case 2:
             salt = _context.sent;
             _context.next = 5;
-            return bcrypt.hash(body.password, salt);
+            return _bcrypt["default"].hash(body.password, salt);
 
           case 5:
             hash = _context.sent;
@@ -86,7 +88,7 @@ var login = /*#__PURE__*/function () {
               expiresIn: '100H'
             });
             _context2.next = 7;
-            return bcrypt.compare(body.password, data.password);
+            return _bcrypt["default"].compare(body.password, data.password);
 
           case 7:
             validatePassword = _context2.sent;

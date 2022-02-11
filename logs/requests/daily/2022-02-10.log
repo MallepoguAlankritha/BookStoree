@@ -1,0 +1,6 @@
+info: ::1 - - [10/Feb/2022:06:24:32 +0000] "POST /api/v1/users/user HTTP/1.1" 201 361 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:06:24:49 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 375 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:06:24:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 366 "-" "PostmanRuntime/7.29.0"
+

@@ -107,3 +107,2123 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-02-09T13:55:34.767Z"}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:18:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1858},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18732003,"external":20049400,"heapTotal":56475648,"heapUsed":26513408,"rss":67170304},"pid":9264,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T05:48:48.846Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:25:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2258},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747428,"external":24797344,"heapTotal":56213504,"heapUsed":26652696,"rss":67051520},"pid":16484,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T05:55:28.744Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:46:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3507},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747428,"external":24797344,"heapTotal":56213504,"heapUsed":26562112,"rss":67031040},"pid":7316,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T06:16:18.371Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:01:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4394},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747428,"external":24797344,"heapTotal":56213504,"heapUsed":26589144,"rss":66961408},"pid":15808,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T06:31:05.157Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:21:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5621},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755620,"external":24802142,"heapTotal":56475648,"heapUsed":27019064,"rss":67104768},"pid":12860,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T06:51:31.938Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:48:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7245},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755620,"external":20863206,"heapTotal":56475648,"heapUsed":27011520,"rss":66883584},"pid":11276,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T07:18:35.772Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:50:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7351},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755620,"external":24802142,"heapTotal":56475648,"heapUsed":27168064,"rss":66924544},"pid":19016,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T07:20:21.719Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:52:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7486},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755620,"external":24802142,"heapTotal":56475648,"heapUsed":27078200,"rss":67309568},"pid":8800,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-02-11T07:22:36.514Z","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/addbook 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-11T07:23:51.384Z"}
+error: 
+    status - 500 
+    message - Error: Invalid user
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\build\services\user.service.js:104:19)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:32:56.958Z"}
+error: 
+    status - 500 
+    message - Error: Invalid user
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\build\services\user.service.js:104:19)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:33:40.085Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:34:50.134Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:35:35.728Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:57:08.802Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:57:10.773Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:57:28.947Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T07:57:31.139Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:04:33.497Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:05:20.104Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:08:25.212Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:13:04.591Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:15:04.543Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:16:42.293Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:17:06.331Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:17:44.776Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:17:47.294Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:18:06.318Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:20:18.194Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:20:34.950Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:21:07.415Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:23:43.232Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:24:54.480Z"}
+error: 
+    status - 500 
+    message - Error: Invalid user
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\build\services\user.service.js:104:19)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:31:09.864Z"}
+error: 
+    status - 500 
+    message - Error: Invalid user
+    at _callee2$ (C:\Users\ALANKRITHA\Books\book-store\build\services\user.service.js:104:19)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:31:44.732Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:40:01.966Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:40:32.690Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook?_id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:41:04.650Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:41:20.988Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:42:05.523Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:43:56.130Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:44:38.001Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:44:58.923Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:45:00.443Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/getbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T08:46:00.137Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:04:26.794Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:04:42.487Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:04:54.642Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:05:21.061Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:06:04.106Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:06:19.334Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:07:17.513Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:07:30.962Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/addbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:08:42.298Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/addbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:08:43.680Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/search/Good%20life 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-11T12:09:30.806Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/search/Good%20life 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:09:44.837Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:12:36.688Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:13:41.191Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:13:46.204Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T12:15:05.108Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/:id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:35:43.037Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:35:58.541Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:36:00.380Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:36:05.344Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:36:22.894Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:36:33.195Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:36:34.625Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:40:13.447Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:41:33.333Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:41:51.260Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:42:20.618Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:42:34.247Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:42:50.086Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:44:36.326Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:44:43.159Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/620650a2455c181d9c16eab2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:45:37.081Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:49:54.663Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:50:34.926Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:51:02.694Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?_id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:52:19.972Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?_id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:52:38.025Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:56:00.016Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T13:56:29.683Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:02:16.013Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?:id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:02:23.413Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:05:20.440Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:88:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:103:18)
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:155:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:05:40.523Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at userRole (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:114:29)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:416:3)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/book/updatebookbyid/62062054d9520c4dec032267 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:26:27.166Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/updatebookbyid/62062054d9520c4dec032267 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-11T14:27:57.410Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/updatebookbyid/62062054d9520c4dec032267 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:28:24.175Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/book/updatebookbyid/:id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:34:13.857Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/620650a2455c181d9c16eab2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:35:36.304Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/62062054d9520c4dec032267 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:36:06.167Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/620671196de5b627a034126b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:36:29.430Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/620671196de5b627a034126b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:37:22.408Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/620671196de5b627a034126b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:37:24.761Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Book is not defined
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:118:13)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateBookById (C:\Users\ALANKRITHA\Books\book-store\build\services\BookService.js:135:18)
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:212:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/book/updatebookbyid/620671196de5b627a034126b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:37:26.379Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value " 620671196de5b627a034126b\n" (type string) at path "_id" for model "Book"
+    at model.Query.exec (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/getbookbyid/%20620671196de5b627a034126b%0A 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:39:48.698Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value " 620671196de5b627a034126b" (type string) at path "_id" for model "Book"
+    at model.Query.exec (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/getbookbyid/%20620671196de5b627a034126b 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:40:03.964Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value " 620671196de5b627a034126b" (type string) at path "_id" for model "Book"
+    at model.Query.exec (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\ALANKRITHA\Books\book-store\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/getbookbyid/%20620671196de5b627a034126b 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:41:46.321Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'split')
+    at userRole (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:114:29)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:416:3)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/book/deletebookbyid/620671196de5b627a034126b 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:44:22.237Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'title')
+    at _callee5$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:268:52)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/deletebookbyid/620671196de5b627a034126b 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:45:50.293Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'title')
+    at _callee5$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:268:52)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/deletebookbyid/620671196de5b627a034126b 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-11T14:46:31.239Z"}

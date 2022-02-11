@@ -33,3 +33,409 @@ info: ::1 - - [09/Feb/2022:13:55:34 +0000] "POST /api/v1/users/login HTTP/1.1" 5
 
 info: ::1 - - [09/Feb/2022:13:56:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 366 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [10/Feb/2022:06:24:32 +0000] "POST /api/v1/users/user HTTP/1.1" 201 361 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:06:24:49 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 375 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:06:24:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 366 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:06:35 +0000] "POST /api/v1/book/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:07:38 +0000] "POST /api/v1/book/addbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:10:50 +0000] "POST /api/v1/book/addbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:10:53 +0000] "POST /api/v1/book/addbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:14:02 +0000] "POST /api/v1/book/user/addbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Feb/2022:11:14:09 +0000] "POST /api/v1/book/user/addbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:18:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1858},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18732027,"external":20049464,"heapTotal":56475648,"heapUsed":26800336,"rss":67887104},"pid":9264,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:25:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2258},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747452,"external":24797408,"heapTotal":56475648,"heapUsed":27008784,"rss":67792896},"pid":16484,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 11:46:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3507},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747452,"external":24797408,"heapTotal":56475648,"heapUsed":26889880,"rss":67751936},"pid":7316,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:26:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:01:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4394},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18747452,"external":24797408,"heapTotal":56475648,"heapUsed":26914728,"rss":67678208},"pid":15808,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:26:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":26,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:21:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5621},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755644,"external":24802206,"heapTotal":56475648,"heapUsed":27086536,"rss":67796992},"pid":12860,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:48:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7245},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755644,"external":20863270,"heapTotal":56475648,"heapUsed":27323176,"rss":67563520},"pid":11276,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:50:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7351},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755644,"external":24802206,"heapTotal":56475648,"heapUsed":27235536,"rss":67682304},"pid":19016,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: cartRoute is not defined
+ReferenceError: cartRoute is not defined
+    at routes (C:\Users\ALANKRITHA\Books\book-store\build\routes\index.js:29:23)
+    at Object.<anonymous> (C:\Users\ALANKRITHA\Books\book-store\build\index.js:50:61)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Fri Feb 11 2022 12:52:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7486},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js"],"cwd":"C:\\Users\\ALANKRITHA\\Books\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755644,"external":24802206,"heapTotal":56475648,"heapUsed":27145672,"rss":68022272},"pid":8800,"uid":null,"version":"v16.13.1"},"stack":"ReferenceError: cartRoute is not defined\n    at routes (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js:29:23)\n    at Object.<anonymous> (C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js:50:61)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":23,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\routes\\index.js","function":"routes","line":29,"method":null,"native":false},{"column":61,"file":"C:\\Users\\ALANKRITHA\\Books\\book-store\\build\\index.js","function":null,"line":50,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [11/Feb/2022:07:23:51 +0000] "POST /api/v1/book/addbook HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:26:10 +0000] "POST /user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:27:32 +0000] "POST /user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:29:46 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 363 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:32:05 +0000] "POST /api/v1/users/user HTTP/1.1" 201 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:32:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:33:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:34:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:34:50 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:35:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:35:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:35:35 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:20 +0000] "POST /login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:22 +0000] "POST /login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:23 +0000] "POST /login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:31 +0000] "POST /login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:56:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:08 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:10 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:28 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:31 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:41 +0000] "POST /api/v1/users/user HTTP/1.1" 201 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:07:57:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:02:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:04:33 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:04:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:04:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:05:20 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 48 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:07:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:08:25 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:12:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:13:04 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:14:30 +0000] "POST /api/v1/users/user HTTP/1.1" 201 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:14:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:15:04 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:16:42 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:17:06 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:17:44 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:17:47 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:18:06 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:20:18 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:20:34 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:20:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:21:07 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:23:43 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:24:54 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:30:21 +0000] "POST /api/v1/book/addbook HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:31:09 +0000] "POST /api/v1/users/login HTTP/1.1" 500 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:31:34 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 363 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:31:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:36:49 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 363 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:37:14 +0000] "POST /api/v1/users/user HTTP/1.1" 201 346 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:37:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 368 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:37:40 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 293 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:39:28 +0000] "POST /api/v1/book/getbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:39:48 +0000] "POST /api/v1/book/getbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:40:01 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:40:32 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:41:04 +0000] "GET /api/v1/book/getbook?_id=62062054d9520c4dec032267 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:41:21 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:42:05 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:43:56 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:44:38 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:44:58 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:45:00 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:08:46:00 +0000] "GET /api/v1/book/getbook HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:11:42:30 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 270 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:03:46 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 300 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:04:26 +0000] "GET /api/v1/book/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:04:42 +0000] "GET /api/v1/book/_id HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:04:54 +0000] "GET /api/v1/book/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:05:21 +0000] "GET /api/v1/book/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:05:38 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 496 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:06:04 +0000] "GET /api/v1/book/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:06:19 +0000] "GET /api/v1/book/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:07:17 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:07:30 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:08:42 +0000] "GET /api/v1/book/addbook HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:08:43 +0000] "GET /api/v1/book/addbook HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:09:30 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:09:44 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:10:33 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:11:05 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:12:36 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:13:41 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:13:46 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:12:15:05 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:35:43 +0000] "GET /api/v1/book/:id HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:35:58 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:36:00 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:36:05 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:36:22 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:36:33 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:36:34 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:40:13 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:40:32 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:41:33 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:41:51 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:42:20 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:42:34 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:42:50 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:44:36 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:44:43 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:45:37 +0000] "GET /api/v1/book/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:47:55 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 496 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:49:54 +0000] "GET /api/v1/book/getbookbyid HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:50:34 +0000] "GET /api/v1/book/getbookbyid HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:51:02 +0000] "GET /api/v1/book/getbookbyid HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:52:19 +0000] "GET /api/v1/book/getbookbyid?_id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:52:38 +0000] "GET /api/v1/book/getbookbyid?_id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:56:00 +0000] "GET /api/v1/book/getbookbyid HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:13:56:29 +0000] "GET /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:01:46 +0000] "GET /api/v1/book/getbookbyid:id=62062054d9520c4dec032267 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:02:16 +0000] "GET /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:02:23 +0000] "GET /api/v1/book/getbookbyid?:id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:05:20 +0000] "GET /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:05:40 +0000] "GET /api/v1/book/getbookbyid?id=62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:06:49 +0000] "GET /api/v1/book/getbookbyid/62062054d9520c4dec032267 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:08:12 +0000] "GET /api/v1/book/getbookbyid/62062054d9520c4dec032267 HTTP/1.1" 200 280 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:08:18 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:08:30 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:10:54 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:11:19 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:11:50 +0000] "GET /api/v1/search/Good%20life HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:12:08 +0000] "GET /api/v1/Good%20life HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:12:15 +0000] "GET /api/v1/book/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:12:17 +0000] "GET /api/v1/book/Good%20life HTTP/1.1" 500 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:17:47 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:20:39 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:22:18 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 300 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:23:27 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:26:27 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:27:57 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:28:24 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:34:13 +0000] "PUT /api/v1/book/updatebookbyid/:id HTTP/1.1" 500 52 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:35:36 +0000] "PUT /api/v1/book/updatebookbyid/620650a2455c181d9c16eab2 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:36:06 +0000] "PUT /api/v1/book/updatebookbyid/62062054d9520c4dec032267 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:36:29 +0000] "PUT /api/v1/book/updatebookbyid/620671196de5b627a034126b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:37:22 +0000] "PUT /api/v1/book/updatebookbyid/620671196de5b627a034126b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:37:24 +0000] "PUT /api/v1/book/updatebookbyid/620671196de5b627a034126b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:37:26 +0000] "PUT /api/v1/book/updatebookbyid/620671196de5b627a034126b HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:39:17 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 722 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:39:48 +0000] "GET /api/v1/book/getbookbyid/%20620671196de5b627a034126b%0A HTTP/1.1" 500 150 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:40:03 +0000] "GET /api/v1/book/getbookbyid/%20620671196de5b627a034126b HTTP/1.1" 500 147 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:41:46 +0000] "GET /api/v1/book/getbookbyid/%20620671196de5b627a034126b HTTP/1.1" 500 147 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:42:02 +0000] "GET /api/v1/book/getbookbyid/620671196de5b627a034126b HTTP/1.1" 200 287 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:42:30 +0000] "PUT /api/v1/book/updatebookbyid/620671196de5b627a034126b HTTP/1.1" 200 310 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:42:51 +0000] "GET /api/v1/book/Good%20life HTTP/1.1" 200 520 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:44:22 +0000] "DELETE /api/v1/book/deletebookbyid/620671196de5b627a034126b HTTP/1.1" 500 88 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:45:50 +0000] "DELETE /api/v1/book/deletebookbyid/620671196de5b627a034126b HTTP/1.1" 500 83 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:46:31 +0000] "DELETE /api/v1/book/deletebookbyid/620671196de5b627a034126b HTTP/1.1" 500 83 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Feb/2022:14:47:25 +0000] "DELETE /api/v1/book/deletebookbyid/620671196de5b627a034126b HTTP/1.1" 200 310 "-" "PostmanRuntime/7.28.4"
+
