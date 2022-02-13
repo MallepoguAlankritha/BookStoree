@@ -20,7 +20,8 @@ export const userAuth = async (req, res, next) => {
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user } = await jwt.verify(bearerToken, 'your-secret-key');
+    const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    req.user = user;
     res.locals.user = user;
     res.locals.token = bearerToken;
     next();
@@ -28,6 +29,7 @@ export const userAuth = async (req, res, next) => {
     next(error);
   }
 };
+
 export const setRole = (role) => {
   return async (req, res, next) => {
     req.body.role = role;

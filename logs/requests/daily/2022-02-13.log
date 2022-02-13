@@ -1,0 +1,16 @@
+info: ::1 - - [13/Feb/2022:14:36:06 +0000] "PUT /api/v1/cart/removecart HTTP/1.1" 400 48 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:37:09 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:37:15 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 2524 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:37:23 +0000] "POST /api/v1/cart/6207d015d34c724168c3a26c HTTP/1.1" 201 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:37:32 +0000] "POST /api/v1/cart/6207d015d34c724168c3a26c HTTP/1.1" 201 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:38:18 +0000] "PUT /api/v1/cart/removecart HTTP/1.1" 500 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:38:30 +0000] "PUT /api/v1/cart/6207c8db79399205d0fd7577 HTTP/1.1" 500 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [13/Feb/2022:14:38:36 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 276 "-" "PostmanRuntime/7.29.0"
+

@@ -7,7 +7,7 @@ var _typeof = require("@babel/runtime/helpers/typeof");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateBookById = exports.searchBook = exports.getBookById = exports.getBook = exports.deleteBookById = exports.addBook = void 0;
+exports.updateBookById = exports.searchBook = exports.priceLowToHighSort = exports.priceHighToLowSort = exports.getBookById = exports.getBook = exports.descendingOrder = exports.deleteBookById = exports.ascendingOrder = exports.alphabeticalOrder = exports.addBook = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -16,6 +16,10 @@ var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/
 var _httpStatusCodes = _interopRequireDefault(require("http-status-codes"));
 
 var BookService = _interopRequireWildcard(require("../services/BookService"));
+
+var _BookModel = _interopRequireDefault(require("../models/BookModel"));
+
+var _logger = _interopRequireDefault(require("../config/logger"));
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
@@ -26,8 +30,8 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 /* eslint-disable quotes */
 
 /* eslint-disable prettier/prettier */
-// import Book from '../models/book.model';
-// import logger from '../config/logger';
+;
+
 // Controller for add book
 
 /**
@@ -336,6 +340,251 @@ var searchBook = /*#__PURE__*/function () {
   return function searchBook(_x16, _x17, _x18) {
     return _ref6.apply(this, arguments);
   };
-}();
+}(); // Controller for sort book in ascending order
+
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+
 
 exports.searchBook = searchBook;
+
+var ascendingOrder = /*#__PURE__*/function () {
+  var _ref7 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee7(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee7$(_context7) {
+      while (1) {
+        switch (_context7.prev = _context7.next) {
+          case 0:
+            _context7.prev = 0;
+            _context7.next = 3;
+            return BookService.ascendingOrder();
+
+          case 3:
+            data = _context7.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: "Your Books..."
+            });
+            _context7.next = 10;
+            break;
+
+          case 7:
+            _context7.prev = 7;
+            _context7.t0 = _context7["catch"](0);
+            next(_context7.t0);
+
+          case 10:
+          case "end":
+            return _context7.stop();
+        }
+      }
+    }, _callee7, null, [[0, 7]]);
+  }));
+
+  return function ascendingOrder(_x19, _x20, _x21) {
+    return _ref7.apply(this, arguments);
+  };
+}(); // Controller for sort book in descending order
+
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+
+
+exports.ascendingOrder = ascendingOrder;
+
+var descendingOrder = /*#__PURE__*/function () {
+  var _ref8 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee8(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee8$(_context8) {
+      while (1) {
+        switch (_context8.prev = _context8.next) {
+          case 0:
+            _context8.prev = 0;
+            _context8.next = 3;
+            return BookService.descendingOrder();
+
+          case 3:
+            data = _context8.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: "Your Books..."
+            });
+            _context8.next = 10;
+            break;
+
+          case 7:
+            _context8.prev = 7;
+            _context8.t0 = _context8["catch"](0);
+            next(_context8.t0);
+
+          case 10:
+          case "end":
+            return _context8.stop();
+        }
+      }
+    }, _callee8, null, [[0, 7]]);
+  }));
+
+  return function descendingOrder(_x22, _x23, _x24) {
+    return _ref8.apply(this, arguments);
+  };
+}(); // Controller for sort book in alphabetical order
+
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+
+
+exports.descendingOrder = descendingOrder;
+
+var alphabeticalOrder = /*#__PURE__*/function () {
+  var _ref9 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee9$(_context9) {
+      while (1) {
+        switch (_context9.prev = _context9.next) {
+          case 0:
+            _context9.prev = 0;
+            _context9.next = 3;
+            return BookService.alphabeticalOrder();
+
+          case 3:
+            data = _context9.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: "Your Books..."
+            });
+            _context9.next = 10;
+            break;
+
+          case 7:
+            _context9.prev = 7;
+            _context9.t0 = _context9["catch"](0);
+            next(_context9.t0);
+
+          case 10:
+          case "end":
+            return _context9.stop();
+        }
+      }
+    }, _callee9, null, [[0, 7]]);
+  }));
+
+  return function alphabeticalOrder(_x25, _x26, _x27) {
+    return _ref9.apply(this, arguments);
+  };
+}(); // Controller for sort book as per price from low to high
+
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+
+
+exports.alphabeticalOrder = alphabeticalOrder;
+
+var priceLowToHighSort = /*#__PURE__*/function () {
+  var _ref10 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee10(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee10$(_context10) {
+      while (1) {
+        switch (_context10.prev = _context10.next) {
+          case 0:
+            _context10.prev = 0;
+            _context10.next = 3;
+            return BookService.priceLowToHighSort();
+
+          case 3:
+            data = _context10.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: "Your Books..."
+            });
+            _context10.next = 10;
+            break;
+
+          case 7:
+            _context10.prev = 7;
+            _context10.t0 = _context10["catch"](0);
+            next(_context10.t0);
+
+          case 10:
+          case "end":
+            return _context10.stop();
+        }
+      }
+    }, _callee10, null, [[0, 7]]);
+  }));
+
+  return function priceLowToHighSort(_x28, _x29, _x30) {
+    return _ref10.apply(this, arguments);
+  };
+}(); // Controller for sort book as per price from high to low
+
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+
+
+exports.priceLowToHighSort = priceLowToHighSort;
+
+var priceHighToLowSort = /*#__PURE__*/function () {
+  var _ref11 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee11(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee11$(_context11) {
+      while (1) {
+        switch (_context11.prev = _context11.next) {
+          case 0:
+            _context11.prev = 0;
+            _context11.next = 3;
+            return BookService.priceHighToLowSort();
+
+          case 3:
+            data = _context11.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: "Your Books..."
+            });
+            _context11.next = 10;
+            break;
+
+          case 7:
+            _context11.prev = 7;
+            _context11.t0 = _context11["catch"](0);
+            next(_context11.t0);
+
+          case 10:
+          case "end":
+            return _context11.stop();
+        }
+      }
+    }, _callee11, null, [[0, 7]]);
+  }));
+
+  return function priceHighToLowSort(_x31, _x32, _x33) {
+    return _ref11.apply(this, arguments);
+  };
+}();
+
+exports.priceHighToLowSort = priceHighToLowSort;

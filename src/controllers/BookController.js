@@ -3,8 +3,8 @@
 /* eslint-disable prettier/prettier */
 import HttpStatus from 'http-status-codes';
 import * as BookService from '../services/BookService';
-// import Book from '../models/book.model';
-// import logger from '../config/logger';
+import Book from '../models/BookModel';;
+import logger from '../config/logger';
 
 // Controller for add book
 /**
@@ -141,7 +141,105 @@ export const searchBook = async (req, res, next) => {
     next(err);
   }
 };
+// Controller for sort book in ascending order
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+ export const ascendingOrder = async (req, res, next) => {
+  try {
+    const data = await BookService.ascendingOrder();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: `Your Books...`
+    });
+  } catch (err) {
+    next(err);
+  }
+};
 
+// Controller for sort book in descending order
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+ export const descendingOrder = async (req, res, next) => {
+  try {
+    const data = await BookService.descendingOrder();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: `Your Books...`
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// Controller for sort book in alphabetical order
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+ export const alphabeticalOrder = async (req, res, next) => {
+  try {
+    const data = await BookService.alphabeticalOrder();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: `Your Books...`
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// Controller for sort book as per price from low to high
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+ export const priceLowToHighSort = async (req, res, next) => {
+  try {
+    const data = await BookService.priceLowToHighSort();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: `Your Books...`
+    });
+  } catch (err) {
+    next(err);
+  }
+};
+
+// Controller for sort book as per price from high to low
+/**
+ *
+ * @param {object} req request object
+ * @param {object} res  response object
+ * @param {object} next
+ */
+ export const priceHighToLowSort = async (req, res, next) => {
+  try {
+    const data = await BookService.priceHighToLowSort();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: `Your Books...`
+    });
+  } catch (err) {
+    next(err);
+  }
+};
 
 
 

@@ -1,0 +1,1351 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T06:01:04.485Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T06:01:04.689Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'title')
+    at _callee3$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:162:52)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/getbookbyid/620671196de5b627a034126b 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T06:03:07.866Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'title')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:219:52)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/updatebookbyid/620671196de5b627a034126b 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-12T06:03:43.150Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'title')
+    at _callee5$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\BookController.js:268:52)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/deletebookbyid/620671196de5b627a034126b 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-12T06:04:05.034Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Book.users index: email_1 dup key: { email: "mallepogualankritha@gmail.com" } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-12T06:28:42.700Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\ALANKRITHA\Books\book-store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T06:28:42.713Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:25:05.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T13:26:29.973Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:26:30.021Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/:id 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-12T13:26:36.791Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:26:49.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T13:27:21.921Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:27:21.962Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:27:26.760Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:27:29.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T13:28:06.011Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:28:06.077Z"}
+error: 
+    status - 500 
+    message - ValidationError: "quantity" is required 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:28:06.813Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:28:45.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T13:30:33.656Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:30:33.710Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:30:40.313Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:30:49.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T13:33:00.652Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T13:33:00.705Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/:id 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:33:03.923Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:34:11.062Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:35:16.769Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:35:27.962Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:35:34.563Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:43:50.619Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:44:27.665Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:44:29.287Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T13:59:27.877Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:00:44.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:01:45.902Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:01:45.957Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:01:50.575Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-12T14:08:24.221Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:08:33.060Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:08:52.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:09:13.866Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:09:13.917Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:197:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:235:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:09:19.622Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/62062054d9520c4dec032267 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:09:32.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:21:04.680Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:21:04.729Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:21:09.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:22:43.843Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:22:43.900Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/620650a2455c181d9c16eab2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:22:48.983Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/620650a2455c181d9c16eab2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:24:04.030Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:24:58.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:25:20.401Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:25:20.466Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:25:26.191Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:25:28.410Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:28:37.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:28:53.268Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:28:53.355Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:28:59.893Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/62075339a247101d1c5e48d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:29:53.142Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:32:03.904Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:32:26.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:32:48.439Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:32:48.494Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:32:51.674Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:33:55.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:34:13.454Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:34:13.513Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:34:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:64:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:34:17.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:35:16.047Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:35:16.094Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:35:20.683Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/addcart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:40:37.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:42:08.190Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:42:08.245Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c4c7f7e96c095cf4d785 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:42:25.196Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\ALANKRITHA\Books\book-store\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:55:45)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\ALANKRITHA\Books\book-store\build\middlewares\auth.middleware.js:80:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:43:33.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:44:02.728Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:44:02.792Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:44:05.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:44:35.771Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:44:35.838Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:44:38.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:44:57.509Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:44:57.563Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:33:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:63:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:45:03.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:45:58.780Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:45:58.837Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:34:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:64:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:46:02.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:47:57.685Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:47:57.746Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:34:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:64:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c7837f30084964aeeb51 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:48:01.934Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:34:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addToCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:64:17)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at newCartValidator (C:\Users\ALANKRITHA\Books\book-store\build\validators\cart.validator.js:25:5)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/6207c8db79399205d0fd7577 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-12T14:49:24.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:51:14.398Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:51:14.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T14:56:15.550Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T14:56:15.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:00:45.583Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:00:45.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:01:37.205Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:01:37.279Z"}
+error: Cast to ObjectId failed for value "{ id: 6207c992a90e3a22b47dbd24 }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207c992a90e3a22b47dbd24 }\"","timestamp":"2022-02-12T15:01:40.733Z","value":{"id":"6207c992a90e3a22b47dbd24"},"valueType":"Object"}
+error: Cast to ObjectId failed for value "{ id: undefined }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: undefined }\"","timestamp":"2022-02-12T15:08:05.023Z","value":{},"valueType":"Object"}
+error: Cast to ObjectId failed for value "{ id: 6207c8db79399205d0fd7577 }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207c8db79399205d0fd7577 }\"","timestamp":"2022-02-12T15:09:18.602Z","value":{"id":"6207c8db79399205d0fd7577"},"valueType":"Object"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/6207c8db79399205d0fd7577 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-02-12T15:12:14.240Z"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:12:22.605Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:12:44.456Z"}
+error: Cast to ObjectId failed for value "{ id: 6207cf0bd34c724168c3a264 }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207cf0bd34c724168c3a264 }\"","timestamp":"2022-02-12T15:16:42.286Z","value":{"id":"6207cf0bd34c724168c3a264"},"valueType":"Object"}
+error: Cast to ObjectId failed for value "{ id: 6207d015d34c724168c3a26c }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207d015d34c724168c3a26c }\"","timestamp":"2022-02-12T15:21:57.485Z","value":{"id":"6207d015d34c724168c3a26c"},"valueType":"Object"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:23:35.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:25:41.139Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:25:41.189Z"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:25:50.025Z"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:28:06.763Z"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:28:43.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:32:41.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:33:19.579Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:33:19.640Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:33:23.037Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:33:47.839Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:33:53.565Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:198:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:236:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:34:15.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:35:34.972Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:35:35.032Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee4$ (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:199:32)
+    at tryCatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\ALANKRITHA\Books\book-store\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at viewCart (C:\Users\ALANKRITHA\Books\book-store\build\controllers\cart.controller.js:237:18)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\ALANKRITHA\Books\book-store\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/cart/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-12T15:35:41.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-12T15:36:34.895Z"}
+info: Connected to the database. {"timestamp":"2022-02-12T15:36:34.965Z"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-12T15:36:51.156Z"}
+error: Cast to ObjectId failed for value "{ id: 6207d015d34c724168c3a26c }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207d015d34c724168c3a26c }\"","timestamp":"2022-02-12T15:37:02.577Z","value":{"id":"6207d015d34c724168c3a26c"},"valueType":"Object"}

@@ -1,0 +1,4 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-13T14:36:00.360Z"}
+info: Connected to the database. {"timestamp":"2022-02-13T14:36:00.401Z"}
+error: Cast to ObjectId failed for value "{ id: 6207d015d34c724168c3a26c }" (type Object) at path "_id" for model "Book" {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"{ id: 6207d015d34c724168c3a26c }\"","timestamp":"2022-02-13T14:38:18.435Z","value":{"id":"6207d015d34c724168c3a26c"},"valueType":"Object"}
+error: Cannot read properties of null (reading 'totalQuantity') {"timestamp":"2022-02-13T14:38:30.668Z"}

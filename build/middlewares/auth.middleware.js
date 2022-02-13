@@ -30,8 +30,7 @@ _dotenv["default"].config();
 
 var userAuth = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(req, res, next) {
-    var bearerToken, _yield$jwt$verify, user;
-
+    var bearerToken, user;
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -52,11 +51,11 @@ var userAuth = /*#__PURE__*/function () {
           case 4:
             bearerToken = bearerToken.split(' ')[1];
             _context.next = 7;
-            return _jsonwebtoken["default"].verify(bearerToken, 'your-secret-key');
+            return _jsonwebtoken["default"].verify(bearerToken, process.env.SECRET_KEY);
 
           case 7:
-            _yield$jwt$verify = _context.sent;
-            user = _yield$jwt$verify.user;
+            user = _context.sent;
+            req.user = user;
             res.locals.user = user;
             res.locals.token = bearerToken;
             next();
